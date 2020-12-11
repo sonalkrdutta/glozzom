@@ -1,0 +1,138 @@
+.navbar {
+    background: #000;
+    padding-left: 1em;
+}
+
+.nav-item {
+    padding-left: 1em !important;
+}
+
+.nav-item {
+    padding-left: 1em !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-img-1 {
+    background: url("../img/image1.jpeg");
+    background-size: cover;
+}
+
+.carousel-img-2 {
+    background: url("../img/image2.jpeg");
+    background-size: cover;
+}
+
+.carousel-img-3 {
+    background: url("../img/image3.jpeg");
+    background-size: cover;
+}
+
+#homeicon .fa {
+    font-size: 50px;
+}
+
+#getstarted {
+    position: relative;
+    background: url('../img/bg1.jpeg');
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+#getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#homevideo {
+    position: relative;
+    background: url('../img/people.jpeg');
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+#homevideo .dark-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#homevideo .fa {
+    font-size: 50px;
+    color: #ff0000;
+}
+
+#gallery img {
+    min-height: 250px;
+}
+
+#footer {
+    background: #000;
+}
+
+#pageheader {
+    background: url(../img/image1.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+#servicespageheader {
+    background: url(../img/image6.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+#whatwedo img {
+    width: 350px;
+    height: 350px;
+}
+
+#iconbox .fa {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#testimonial .slick-prev::before {
+    color: #000;
+}
+
+#testimonial .slick-next::before {
+    color: #000;
+}
+
+@media (max-width: 767) {
+    .nav-item {
+        padding-left: 0 !important;
+    }
+}
+
+#getstarted {
+    min-height: 450px;
+}
+
+@media(max-width: 480px) {
+    .carousel h2 {
+        font-size: 2.5rem;
+    }
+}
